@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "175127013516",
+    "firebase_url": "https://exploreasy-71b4c-default-rtdb.firebaseio.com",
+    "project_id": "exploreasy-71b4c",
+    "storage_bucket": "exploreasy-71b4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175127013516:android:d82b74eb36869532c0f3a9",
+        "android_client_info": {
+          "package_name": "com.example.exploreasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175127013516-hg6m26e2tr2ib773eak75si433fn2e8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA050L4EVwiEdsNuQfJeRdW9afK00xTKMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175127013516-hg6m26e2tr2ib773eak75si433fn2e8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Exploreasy" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Exploreasy.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/white_alpha_60</item>
+        <item name="minHeight">45dp</item>
+        <item name="android:background">@drawable/bg_et_rounded_8</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintAnimationEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="passwordToggleTint">@drawable/selector_toogle_password_et</item>
+    </style>
+
+    <style name="Theme.Exploreasy.TextInputEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@color/white_alpha_60</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/on_top_view_color</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="Theme.Exploreasy.AutoCompleteTextView" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColorHint">@color/white_alpha_60</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/on_top_view_color</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="Theme.Exploreasy.TextInputLayout.Picker" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="android:textColorHint">@color/white_alpha_60</item>
+        <item name="minHeight">45dp</item>
+        <item name="android:background">@drawable/bg_et_rounded_8</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintAnimationEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="passwordToggleTint">@drawable/selector_toogle_password_et</item>
+    </style>
+    <style name="SearchViewTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item> <!-- Ubah warna teks menjadi hitam -->
+    </style>
+</resources>
