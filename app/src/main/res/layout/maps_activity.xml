@@ -15,7 +15,7 @@
         android:id="@+id/searchView"
         android:background="@drawable/searchview_background"
         app:iconifiedByDefault="false"
-        app:queryHint="Find here ..."
+        app:queryHint="Your current location"
         android:layout_marginHorizontal="24dp"
         android:layout_marginVertical="40dp"
         android:layout_width="match_parent"
